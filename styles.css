@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: rgba(248, 246, 231, 0.822);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  transition: ease 0.2s;
+}
+
+a:hover {
+  transform: scale(1.1);
+  color: salmon;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+.weeks {
+  text-align: center;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+.week01 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 73, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.week02 {
+  padding: 6px;
+  background: rgb(230, 126, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(230, 126, 23, 1) 0%,
+    rgba(205, 188, 108, 1) 47%,
+    rgba(89, 226, 73, 1) 77%,
+    rgba(67, 149, 82, 1) 100%
+  );
+}
+
+.week03 {
+  padding: 6px;
+  background: rgb(240, 64, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 64, 64, 1) 0%,
+    rgba(201, 150, 187, 1) 47%,
+    rgba(93, 19, 203, 1) 74%,
+    rgba(19, 107, 124, 1) 100%
+  );
+}
+
+.week04 {
+  padding: 6px;
+  background: rgb(82, 217, 77);
+  background: linear-gradient(
+    90deg,
+    rgba(82, 217, 77, 1) 0%,
+    rgba(38, 47, 203, 1) 47%,
+    rgba(93, 19, 203, 1) 77%,
+    rgba(233, 31, 0, 1) 100%
+  );
+}
+
+.week05 {
+  padding: 6px;
+  background: rgb(77, 217, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 217, 204, 1) 0%,
+    rgba(244, 141, 118, 1) 48%,
+    rgba(142, 137, 209, 1) 100%
+  );
+}
+
+.week06 {
+  padding: 6px;
+  background: rgb(245, 247, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 247, 156, 1) 20%,
+    rgba(97, 208, 82, 1) 48%,
+    rgba(222, 222, 187, 1) 100%
+  );
+}
+
+.week07 {
+  padding: 6px;
+  background: rgb(105, 60, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(105, 60, 204, 1) 20%,
+    rgba(82, 203, 208, 1) 48%,
+    rgba(189, 148, 240, 1) 100%
+  );
+}
+
+.week08 {
+  padding: 6px;
+  background: rgb(215, 117, 197);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 117, 197, 1) 20%,
+    rgba(190, 129, 101, 1) 48%,
+    rgba(182, 45, 45, 1) 100%
+  );
+}
+
+.week09 {
+  padding: 6px;
+  background: rgb(215, 184, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 184, 117, 1) 0%,
+    rgba(190, 101, 127, 1) 48%,
+    rgba(75, 157, 67, 1) 100%
+  );
+}
+
+.week10 {
+  padding: 6px;
+  background: rgb(230, 11, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(230, 11, 11, 1) 0%,
+    rgba(79, 79, 79, 1) 48%,
+    rgba(0, 59, 246, 1) 100%
+  );
+}
+.week11 {
+  padding: 6px;
+  background: rgb(89, 230, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(89, 230, 11, 1) 0%,
+    rgba(19, 154, 159, 1) 48%,
+    rgba(227, 221, 101, 1) 100%
+  );
+}
+
+.week12 {
+  padding: 6px;
+  background: rgb(11, 104, 230);
+  background: radial-gradient(
+    circle,
+    rgba(11, 104, 230, 1) 0%,
+    rgba(159, 33, 19, 1) 48%,
+    rgba(101, 227, 164, 1) 100%
+  );
+}
+
+.week13 {
+  padding: 6px;
+  background: rgb(190, 227, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(190, 227, 176, 1) 0%,
+    rgba(252, 209, 204, 1) 48%,
+    rgba(209, 254, 232, 1) 100%
+  );
+}
+
+.week14 {
+  padding: 6px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(97, 131, 136, 1) 48%,
+    rgba(50, 50, 50, 1) 100%
+  );
+}
