@@ -8,26 +8,42 @@
 }
 
 body {
-	font-family: "Sansita", sans-serif;
+	font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
 }
 
 /* mobile **************************/
 header {
-	background-color: #bbb;
+	background-color: #114B5F;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .header-image {
-  height: 100px;
+  height: 110px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.header-title {
+  color: white;
+  font-size: 25px;
+  text-shadow: 5px 2px 8px rgba(0, 0, 0, 0.58);
+  margin-left: 10px;
 }
 
 header,
-main {
-	max-width: 767px;
+main,
+footer {
+	/* max-width: 767px; */
 	margin: 0 auto;
 }
 
@@ -38,25 +54,45 @@ h1 {
 nav {
 	background-color: #36454f;
 	margin: 0 auto;
-	max-width: 800px;
+	/* max-width: 800px; */
 }
 nav ul {
 	list-style-type: none;
 }
 nav a {
 	display: block;
-	color: #fff;
+  background-color: #88D498;
+	color: #FEFFFE;
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
+  transition: ease .2s;
 }
 
 nav a:hover {
-	border: 1px solid #fff;
+	transform: scale(1.1);
+  border-radius: 10px;
+  background-color: white;
+  color: #C6DABF;
 }
 
 .active {
 	color: yellow;
+}
+
+main h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card {
+  align-items: center;
+}
+
+main h3 {
+  text-align: center;
 }
 
 /* Larger Views ******************************/
