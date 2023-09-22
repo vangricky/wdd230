@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -17,12 +17,12 @@ p {
 
 /* mobile **************************/
 header {
-	background-color: #114B5F;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #114b5f;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .header-image {
@@ -43,41 +43,41 @@ header {
 header,
 main,
 footer {
-	/* max-width: 767px; */
-	margin: 0 auto;
+  /* max-width: 767px; */
+  margin: 0 auto;
 }
 
 h1 {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 nav {
-	background-color: #36454f;
-	margin: 0 auto;
-	/* max-width: 800px; */
+  background-color: #36454f;
+  margin: 0 auto;
+  /* max-width: 800px; */
 }
 nav ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 nav a {
-	display: block;
-  background-color: #88D498;
-	color: #FEFFFE;
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
-  transition: ease .2s;
+  display: block;
+  background-color: #88d498;
+  color: #fefffe;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  transition: ease 0.2s;
 }
 
 nav a:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
   border-radius: 10px;
   background-color: white;
-  color: #C6DABF;
+  color: #c6dabf;
 }
 
 .active {
-	color: yellow;
+  color: yellow;
 }
 
 main h2 {
@@ -87,20 +87,42 @@ main h2 {
   text-align: center;
 }
 
+section ul li {
+  display: block;
+  text-align: center;
+}
+
 .card {
   align-items: center;
+}
+
+.card-two {
+  padding-bottom: 100px;
 }
 
 main h3 {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #114b5f;
+  color: white;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 65px;
+  width: 100%;
+}
+
 /* Larger Views ******************************/
 @media (min-width: 640px) {
-	nav ul {
-		display: flex;
-	}
-	nav ul li {
-		flex: 1 1 100%;
-	}
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 100%;
+  }
 }
