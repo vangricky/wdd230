@@ -88,20 +88,55 @@ main h2 {
 }
 
 section ul li {
-  display: block;
+  display: inline-block;
   text-align: center;
+  padding-left: 20px;
 }
 
 .card {
   align-items: center;
 }
 
+.card-one {
+  border: 1px solid;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .card-two {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-two ul {
+  text-align: center;
+}
+
+.card-two ul li {
+  display: block;
+}
+
+hr {
+  padding-bottom: 30px;
 }
 
 main h3 {
   text-align: center;
+  background-color: #114b5f;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 footer {
@@ -110,19 +145,9 @@ footer {
   padding-bottom: 13px;
   background-color: #114b5f;
   color: white;
-  position: fixed;
+  /* position: fixed; */
   left: 0px;
   bottom: 0px;
-  height: 65px;
+  height: 100px;
   width: 100%;
-}
-
-/* Larger Views ******************************/
-@media (min-width: 640px) {
-  nav ul {
-    display: flex;
-  }
-  nav ul li {
-    flex: 1 1 100%;
-  }
 }
