@@ -13,7 +13,7 @@
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30% 1fr;
+    grid-template-rows: 20% 1fr;
   }
 
   .card {
@@ -29,7 +29,8 @@
   }
 
   .card-two ul li {
-    display: inline-block;
+    display: block;
+    text-align: center;
     grid-column-start: 2;
     grid-column-end: 2;
   }
