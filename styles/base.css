@@ -111,6 +111,13 @@ main h2 {
   list-style: none;
 }
 
+.card-one ul li {
+  display: inline-block;
+}
+
+.lastModified {
+  color: #88d498;
+}
 
 /* .card-one {
   border: 1px solid;
