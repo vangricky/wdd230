@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+
 p {
   font-family: "Raleway", sans-serif;
 }
@@ -87,24 +88,32 @@ main h2 {
   text-align: center;
 }
 
-section ul li {
+/* section ul li {
   display: inline-block;
   text-align: center;
   padding-left: 20px;
-}
+} */
 
 .card {
+  text-align: center;
   align-items: center;
-}
-
-.card-one {
+  margin-bottom: 50px;
+  display: block;
   border: 1px solid;
   padding-bottom: 15px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.card-two {
+
+/* .card-one {
+  border: 1px solid;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+/* .card-two {
   padding-bottom: 50px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -113,20 +122,17 @@ section ul li {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+/* } */
 
-.card-two ul {
+/* .card-two ul {
   text-align: center;
 }
 
 .card-two ul li {
   display: block;
-}
+} */
 
-hr {
-  padding-bottom: 30px;
-}
 
 main h3 {
   text-align: center;
@@ -141,13 +147,15 @@ main h3 {
 
 footer {
   text-align: center;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  margin-top: 0 auto;
+  padding: 10px;
+  /* padding-top: 10px; */
+  /* padding-bottom: 13px; */
   background-color: #114b5f;
   color: white;
   /* position: fixed; */
-  left: 0px;
+  /* left: 0px;
   bottom: 0px;
   height: 100px;
-  width: 100%;
+  width: 100%; */
 }
