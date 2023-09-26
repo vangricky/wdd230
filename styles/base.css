@@ -11,7 +11,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
 p {
   font-family: "Raleway", sans-serif;
 }
@@ -36,7 +35,7 @@ header {
 
 .header-title {
   color: white;
-  font-size: 25px;
+  font-size: 40px;
   text-shadow: 5px 2px 8px rgba(0, 0, 0, 0.58);
   margin-left: 10px;
 }

@@ -1,0 +1,36 @@
+* {
+    background-color: antiquewhite;
+}
+
+.color-scheme-circle {
+    display: inline-block
+}
+
+.colors {
+    width: 50x;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    transition: ease .2s;
+}
+
+.colors:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.color-one {
+    background-color: #D1CAA1;
+}
+
+.color-two {
+    background-color: #D4D6B9;
+}
+
+.color-three {
+    background-color: #66717E;
+}
+
+.color-four {
+    background-color: #383B53;
+}
