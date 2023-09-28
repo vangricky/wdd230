@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ricky Vang's WDD 230 - Web Frontend Development - course assignment portal">
-    <meta name="author" content="Ricky Vang">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ricky Vang's WDD 230 - Web Frontend Development - course assignment portal"
+    />
+    <meta name="author" content="Ricky Vang" />
     <title>Ricky Vang - WDD 230 - Web Frontend Development</title>
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
     <header>
-        <img src="images/ricky-minimal.JPG" class="header-image" alt="">
-        <h1 class="header-title">Ricky Vang</h1>
+      <img src="images/ricky-minimal.JPG" class="header-image" alt="" />
+      <h1 class="header-title">Ricky Vang</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="#">Form</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="#">Form</a></li>
+      </ul>
     </nav>
     <main>
-        <h2>WDD 230: Web Frontend Development</h2>
+      <h2>WDD 230: Web Frontend Development</h2>
+      <div data-aos="fade-right">
         <section class="card card-one">
-            <h3>Learning Activities</h3>
-            <ul>
-                <li>Week 01:</li>
-                <li><a href="/wdd230/week01/chamber-site-plan.html">Chamber Site Plan</a></li>
-            </ul>
-            <ul>
-                <li>Week 02:</li>
-            </ul>
-            <ul>
-                <li>Week 03:</li>
-            </ul>
-            <ul>
-                <li>Week 04:</li>
-            </ul>
-            <ul>
-                <li>Week 05:</li>
-            </ul>
-            <ul>
-                <li>Week 06:</li>
-            </ul>
+          <h3>Learning Activities</h3>
+          <ul>
+            <li>Week 01:</li>
+            <li>
+              <a href="/wdd230/week01/chamber-site-plan.html"
+                >Chamber Site Plan</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>Week 02:</li>
+          </ul>
+          <ul>
+            <li>Week 03:</li>
+          </ul>
+          <ul>
+            <li>Week 04:</li>
+          </ul>
+          <ul>
+            <li>Week 05:</li>
+          </ul>
+          <ul>
+            <li>Week 06:</li>
+          </ul>
         </section>
+      </div>
 
-        <section class="card card-two">
-            <h3>Information</h3>
-            <ul>
-                <li>Rexburg, Idaho</li>
-                <li>☀️63°F - Sunshine</li>
-                <li>Page Visits: 4</li>
-            </ul>
-        </section>
-        
-</main>
+      <div data-aos="fade-left">
+      <section class="card card-two">
+        <h3>Information</h3>
+        <ul>
+          <li>Rexburg, Idaho</li>
+          <li>☀️63°F - Sunshine</li>
+          <li>Page Visits: 4</li>
+        </ul>
+      </section>
+    </main>
+    </div>
 
-<footer>
-    <p>&copy; <span id="year"></span></p>
-    <p>Ricky Vang</p>
-    <p>Rexburg, Idaho</p>
-    <p class="lastModified"></p>
-</footer>
+    <footer>
+      <p>&copy; <span id="year"></span></p>
+      <p>Ricky Vang</p>
+      <p>Rexburg, Idaho</p>
+      <p class="lastModified"></p>
+    </footer>
 
-<script src="scripts/getDates.js"></script>
-</body>
+    <script src="scripts/getDates.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
