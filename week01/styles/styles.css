@@ -1,47 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap");
 
 * {
-    background-color: antiquewhite;
-    text-align: center;
+  background-color: #c1e1c1;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(28, 36, 141);
 }
 
 .roboto {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .raleway {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .color-scheme-circle {
-    display: inline-block
+  display: inline-block;
 }
 
 .colors {
-    width: 50x;
-    height: 50px;
-    border-radius: 20px;
-    margin-bottom: 5px;
-    transition: ease .2s;
+  width: 50x;
+  height: 50px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: ease 0.2s;
 }
 
 .colors:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .color-one {
-    background-color: #D1CAA1;
+  background-color: #d1caa1;
 }
 
 .color-two {
-    background-color: #D4D6B9;
+  background-color: #d4d6b9;
 }
 
 .color-three {
-    background-color: #66717E;
+  background-color: #66717e;
 }
 
 .color-four {
-    background-color: #383B53;
+  background-color: #383b53;
+}
+
+.purpose {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+}
+
+.scenarios ul {
+  list-style: none;
+  font-size: 18px;
+}
+
+.purpose h1 {
+  grid-column: 1/3;
+}
+
+.paragraph {
+  background-color: white;
+  border: solid 1px;
+  margin: 50px 50px;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: ease 0.2s;
+  text-align: left;
 }
