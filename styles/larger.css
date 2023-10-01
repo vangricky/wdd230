@@ -16,6 +16,25 @@
     grid-template-rows: 20% 1fr;
   }
 
+  main ul li {
+    margin: auto 5px;
+    transition: ease 0.2s;
+  }
+
+  main ul li:hover {
+    transform: scale(1.1);
+  }
+
+  main a {
+    text-decoration: none;
+    color: #88d498;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+  }
+
+  main a:hover {
+    font-weight: bold;
+  }
+
   .card {
     text-align: left;
     grid-row: auto;
