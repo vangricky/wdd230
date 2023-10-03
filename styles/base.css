@@ -54,10 +54,12 @@ h1 {
 nav {
   background-color: #36454f;
   margin: 0 auto;
+  transition: ease 0.2s;
   /* max-width: 800px; */
 }
 nav ul {
   list-style-type: none;
+  transition: ease 0.2s;
 }
 nav a {
   display: block;
@@ -74,6 +76,68 @@ nav a:hover {
   border-radius: 10px;
   background-color: white;
   color: #36454f;
+  transition: ease 0.2s;
+}
+
+#menu {
+  font-size: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  color: #000;
+  position: absolute;
+  right: 25px;
+  top: 100px;
+  border-radius: 10px;
+  transition: ease 0.2s;
+}
+
+#menu:hover {
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "←";
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #333;
+  color: #fff;
+  transition: ease 0.2s;
+}
+.navigation li {
+  display: none;
+  transition: ease 0.2s;
+}
+.navigation li a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: ease 0.2s;
+}
+.navigation li a:hover {
+  font-weight: 700;
+  transition: ease 0.2s;
+}
+
+.open li {
+  display: block;
+  width: 100%;
+  transition: ease 0.2s;
+}
+.open li a {
+  display: block;
+  transition: ease 0.2s;
 }
 
 .active {
@@ -108,10 +172,15 @@ main h2 {
   text-align: left;
   padding-left: 10px;
   list-style: none;
+  text-decoration: none;
 }
 
 .card-one ul li {
   display: inline-block;
+}
+
+.card-two ul li {
+  list-style: none;
 }
 
 .lastModified {
