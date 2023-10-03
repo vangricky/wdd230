@@ -62,7 +62,7 @@ nav ul {
 nav a {
   display: block;
   background-color: #88d498;
-  color: #fefffe;
+  color: #36454f;
   text-align: center;
   padding: 1rem;
   text-decoration: none;
@@ -73,7 +73,7 @@ nav a:hover {
   transform: scale(1.1);
   border-radius: 10px;
   background-color: white;
-  color: #c6dabf;
+  color: #36454f;
 }
 
 .active {
