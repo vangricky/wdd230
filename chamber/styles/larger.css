@@ -1,9 +1,35 @@
 @media only screen and (min-width: 32em) {
+  .image-container {
+    width: 100%;
+  }
+
   ul {
     flex-direction: row;
   }
 
+  li:hover {
+    transform: scale(1.1);
+  }
+
   .main-heading {
-    font-size: 65px;
+    margin-top: 40px;
+    font-size: 100px;
+  }
+
+  nav p {
+    padding-right: 500px;
+    font-size: 20px;
+  }
+
+  .actionButton {
+    position: relative;
+    right: 412px;
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+  }
+
+  .actionButton:hover {
+    color: white;
   }
 }
