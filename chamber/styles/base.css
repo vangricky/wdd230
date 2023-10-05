@@ -41,7 +41,7 @@ button {
   height: 750px;
   object-fit: cover;
   object-position: 50% 0%;
-  filter: brightness(60%);
+  filter: brightness(35%);
 }
 
 .overlay-text {
@@ -65,7 +65,7 @@ li {
 
 li a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-shadow: 3px 3px 2px #474747;
 }
