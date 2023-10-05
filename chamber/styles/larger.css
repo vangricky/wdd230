@@ -1,0 +1,9 @@
+@media only screen and (min-width: 32em) {
+  ul {
+    flex-direction: row;
+  }
+
+  .main-heading {
+    font-size: 65px;
+  }
+}

@@ -118,6 +118,7 @@ nav a:hover {
   display: none;
   transition: ease 0.2s;
 }
+
 .navigation li a {
   display: block;
   padding: 1rem;
