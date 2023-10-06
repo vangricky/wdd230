@@ -5,6 +5,9 @@
 
   ul {
     flex-direction: row;
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInFromLeft 1s ease forwards;
   }
 
   li:hover {
@@ -14,11 +17,17 @@
   .main-heading {
     margin-top: 40px;
     font-size: 90px;
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInFromLeft 1s ease forwards;
   }
 
   nav p {
     padding-right: 500px;
     font-size: 17px;
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInFromLeft 1s ease forwards;
   }
 
   .actionButton {
@@ -28,6 +37,9 @@
     height: 50px;
     margin-top: 50px;
     font-size: 21px;
+    opacity: 0;
+    transform: translateX(-20px); /* Start offscreen to the left */
+    animation: fadeInFromLeft 1s ease forwards;
   }
 
   .actionButton:hover {
@@ -47,3 +59,4 @@
     background-color: salmon;
   }
 }
+

@@ -92,3 +92,10 @@ nav p {
   cursor: pointer;
   background-color: rgb(77, 220, 77);
 }
+
+@keyframes fadeInFromLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
