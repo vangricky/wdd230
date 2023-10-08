@@ -1,62 +1,60 @@
 @media only screen and (min-width: 32em) {
   .image-container {
-    width: 100%;
+    zoom: 106%;
+    background-position-y: 899px;
+  }
+
+  .sac-icon:hover {
+    cursor: pointer;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .navigation {
+    flex-direction: row;
+    background-color: transparent;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 5px;
+    right: 100px;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+    transition: ease 0.2s;
+  }
+
+  .navigation li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .navigation li a {
+    color: white;
+    transition: ease 0.2s;
+    cursor: pointer;
+  }
+
+  .navigation li a:hover {
+    background-color: transparent;
+  }
+  */ .stuff {
+    margin: 1rem auto;
   }
 
   ul {
-    flex-direction: row;
-    opacity: 0;
-    transform: translateX(-20px);
-    animation: fadeInFromLeft 1s ease forwards;
-  }
-
-  li:hover {
-    transform: scale(1.1);
+    display: flex;
   }
 
   .main-heading {
-    margin-top: 40px;
-    font-size: 90px;
-    opacity: 0;
-    transform: translateX(-20px);
-    animation: fadeInFromLeft 1s ease forwards;
+    margin-top: 150px;
   }
 
-  nav p {
-    padding-right: 500px;
-    font-size: 17px;
-    opacity: 0;
-    transform: translateX(-20px);
-    animation: fadeInFromLeft 1s ease forwards;
-  }
-
-  .actionButton {
-    position: relative;
-    right: 412px;
-    width: 150px;
-    height: 50px;
-    margin-top: 50px;
-    font-size: 21px;
-    opacity: 0;
-    transform: translateX(-20px); /* Start offscreen to the left */
-    animation: fadeInFromLeft 1s ease forwards;
-  }
-
-  .actionButton:hover {
-    color: white;
-  }
-
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-gap: 1px; */
-    margin-top: 15px;
-  }
-
-  main div {
-    width: 450px;
-    height: 300px;
-    background-color: salmon;
+  .heading-contents p {
+    padding-left: 250px;
+    padding-right: 250px;
   }
 }
-

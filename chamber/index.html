@@ -4,35 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sacramento Chamber of Commerce"/>
+    <meta property="og:title" content="Sacramento Chamber of Commerce Official Website" />
+    <meta property="og:type" content="Sacramento Chamber of Commerce" />
+    <meta property="og:url" content="https://vangricky.github.io/wdd230/chamber/" />
+    <meta property="og:image" content="images/ricky-minimal.JPG" />
+    <meta name="author" content="Ricky Vang" />
     <title>Sacramento Chamber Website</title>
+    <link rel="icon" type="image/x-icon" href="images/capital.png">
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
   </head>
   <body>
     <div class="image-container">
-      <img src="images/sac-capital.jpeg" alt="" />
       <div class="overlay-text">
         <header>
         <nav>
-          <ul>
+          <img src="images/sac-icon.png" class="sac-icon" alt="sacramento chamber of commerce icon">
+          <button id="menu"></button>
+          <ul class="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
           </ul>
-          <h1 class="main-heading">Sacramento Chamber of Commerce</h1>
-          <p>The Sacramento Chamber of Commerce, a beacon of economic growth and community empowerment, stands as the heart and soul of the bustling Californian capital. Established in 1855, this dynamic organization has been a driving force behind Sacramento's remarkable evolution. With a membership that includes a diverse array of businesses, from tech startups to family-owned restaurants, the Chamber fosters collaboration and innovation. Through its tireless advocacy efforts, the Chamber has played a pivotal role in shaping policies that encourage entrepreneurship and sustainability in the region. The Chamber's annual "Sacramento Showcase" event has become a must-attend gathering, where local businesses can showcase their innovations, connect with investors, and chart a path towards success in the vibrant Sacramento market.</p>
-          <button class="actionButton">Join!</button>
+          <div class="heading-contents">
+            <h1 class="main-heading">Sacramento Chamber of Commerce</h1>
+            <p>Experience the dynamic spirit of Sacramento through the Chamber of Commerce, your key to a thriving network of businesses, entrepreneurs, and visionaries. Together, we're shaping the future of Sacramento's business landscape, fostering collaboration and prosperity within our community. Join us, and let's empower Sacramento together.</p>
+          </div>
+          <div class="button-position">
+            <button class="actionButton">Join!</button>
+          </div>
         </header>
         </nav>
       </div>
     </div>
     <main class="grid-container">
-        <div></div>
-        <div></div>
-        <div></div>
+
+        <div>
+          <div class="events">
+            <h2>Current Events</h2>
+          </div>
+        </div>
+
+        <div class="weather-card">
+          <h2>Weather</h2>
+        </div>
+
+        <div class="advertisements">
+          <h2>Advertisements</h2>
+        </div>
+
     </main>
     <footer>
+      <p>&copy; <span id="year"></span></p>
+      <p>Ricky Vang</p>
+      <p>Rexburg, Idaho</p>
+      <p class="lastModified"></p>
     </footer>
+    <script src="scripts/scripts.js"></script>
   </body>
 </html>
