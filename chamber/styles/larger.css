@@ -1,8 +1,7 @@
 @media only screen and (min-width: 32em) {
-  .image-container {
-    zoom: 106%;
-    background-position-y: 899px;
-  }
+  /* .image-container {
+     zoom: 108%;
+  } */
 
   .sac-icon:hover {
     cursor: pointer;
