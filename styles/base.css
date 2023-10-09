@@ -43,7 +43,7 @@ header {
 header,
 main,
 footer {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 h1 {
@@ -52,7 +52,7 @@ h1 {
 
 nav {
   background-color: #36454f;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   transition: ease 0.2s;
   /* max-width: 800px; */
 }
@@ -208,7 +208,7 @@ main h3 {
 
 footer {
   text-align: center;
-  margin-top: 0 auto;
+  /* margin-top: 0 auto; */
   padding: 10px;
   background-color: #114b5f;
   color: white;
