@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32em) {
-  /* .image-container {
-     zoom: 108%;
-  } */
+  .image-container {
+    object-fit: contain;
+  }
 
   .sac-icon:hover {
     cursor: pointer;
@@ -40,7 +40,8 @@
   .navigation li a:hover {
     background-color: transparent;
   }
-  */ .stuff {
+
+  .stuff {
     margin: 1rem auto;
   }
 
