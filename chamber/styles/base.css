@@ -44,7 +44,7 @@ button {
 /* everything else */
 .image-container {
   background: linear-gradient(rgba(27, 23, 23, 0.7), rgba(27, 23, 23, 0.7)),
-    url(/chamber/images/cap1.jpeg);
+    url(images/cap1.jpeg);
   background-position: center;
   /* background-position-y: 850px; */
   height: 650px;
