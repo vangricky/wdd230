@@ -9,7 +9,7 @@
 .fade-in-from-left {
   opacity: 0;
   transform: translateX(-20px); /* Start offscreen to the left */
-  animation: fadeInFromLeft 1s ease forwards;
+  animation: fadeInFromLeft 2s ease forwards;
 }
 
 @keyframes fadeInFromLeft {
