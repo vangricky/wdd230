@@ -44,13 +44,13 @@ button {
 /* everything else */
 .image-container {
   background: linear-gradient(rgba(27, 23, 23, 0.7), rgba(27, 23, 23, 0.7)),
-    url(../images/cap1.webp);
+    url(../images/cap1.jpeg);
   background-position: center;
   /* background-position-y: 850px; */
   height: 650px;
   width: 100%;
-  object-fit: cover;
-  background-size: 100%;
+  /* object-fit: cover; */
+  /* background-size: 100%; */
 }
 
 .sac-icon {
