@@ -6,6 +6,18 @@
     flex: 1 1 100%;
   }
 
+  .hero-text {
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    border: 1px solid;
+    background: radial-gradient(#fff, #ddd6b2);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    font-size: 65px;
+  }
+
   main h2 {
     grid-column: 1/3;
   }
