@@ -69,4 +69,25 @@
     padding-left: 250px;
     padding-right: 250px;
   }
+
+  /* DISCOVER */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .second-header {
+    grid-column-start: 1;
+  }
+
+  .third-header {
+    grid-column-start: 1;
+  }
+
+  .pictures {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 11;
+  }
 }

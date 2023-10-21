@@ -161,12 +161,6 @@ a {
   font-size: 30px;
 }
 
-.welcome-header-text {
-  color: white;
-  text-align: center;
-  text-shadow: 0px 0px 5px black;
-}
-
 main {
   background-color: #d1caa1;
 }
@@ -175,7 +169,7 @@ p {
   color: white;
   text-align: center;
   padding-bottom: 25px;
-  text-shadow: 0px 0px 5px black;
+  /* text-shadow: 0px 0px 5px black; */
 }
 
 .button-position {
@@ -246,4 +240,39 @@ footer {
 
 footer p {
   color: white;
+}
+
+/* DISCOVER */
+
+.first-header img {
+  width: 100%;
+  position: relative;
+}
+
+.discover-p {
+  color: black;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.discover-h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 5px black;
+}
+
+.events {
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 5px black;
+}
+
+.attractions {
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 5px black;
+}
+
+.pictures img {
+  width: 100%;
 }
