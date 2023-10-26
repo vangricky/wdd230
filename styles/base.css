@@ -122,7 +122,7 @@ picture img {
 }
 
 #menu.open::before {
-  content: "←";
+  content: "X";
 }
 
 #mode {
