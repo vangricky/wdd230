@@ -126,6 +126,7 @@ picture img {
 }
 
 #mode {
+  color: white;
   position: absolute;
   right: 20%;
   top: 105px;
