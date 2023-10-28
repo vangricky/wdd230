@@ -1,0 +1,40 @@
+* {
+  background-color: bisque;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+}
+
+table {
+  margin: 10px auto;
+  border: thin solid black;
+  box-shadow: 0 0 10px;
+  /* border-collapse: collapse; */
+}
+
+th {
+  border-bottom: thin solid black;
+  border-right: thin solid black;
+}
+
+.title {
+  background-color: red;
+  color: white;
+}
+
+.one {
+  background-color: black;
+}
+
+.grey {
+  background-color: grey;
+  color: white;
+}
+
+/* BELOW, ACTIVATE IT TO SEE BORDER AROUND EVERYTHING TO MAKE IT EASY */
+/* th,
+td {
+  border: thin solid black;
+} */
