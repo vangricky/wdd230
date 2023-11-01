@@ -90,4 +90,13 @@
     grid-row-start: 1;
     grid-row-end: 11;
   }
+
+  .pictures img {
+    transition: ease 0.2s;
+    
+  }
+
+  .pictures img:hover {
+    transform: scale(1.1);
+  }
 }
