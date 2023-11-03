@@ -1,0 +1,269 @@
+/*  base.css: header // main // footnotes */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+/* mobile **************************/
+header {
+  background-color: #114b5f;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-image {
+  height: 110px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.header-title {
+  color: white;
+  font-size: 40px;
+  text-shadow: 5px 2px 8px rgba(0, 0, 0, 0.58);
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #36454f;
+  /* margin: 0 auto; */
+  transition: ease 0.2s;
+  /* max-width: 800px; */
+}
+nav ul {
+  list-style-type: none;
+  transition: ease 0.2s;
+}
+nav a {
+  display: block;
+  background-color: #88d498;
+  color: #36454f;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  transition: ease 0.2s;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+  background-color: white;
+  color: #36454f;
+  transition: ease 0.2s;
+}
+
+picture img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 155px;
+  left: 2px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: radial-gradient(#fff, #ddd6b2);
+  padding: 0.5rem;
+  opacity: 0.75;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.content {
+  white-space: nowrap;
+  animation: slide-in 1s forwards;
+}
+
+#menu {
+  font-size: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  color: #000;
+  position: absolute;
+  right: 15px;
+  top: 105px;
+  border-radius: 10px;
+  transition: ease 0.2s;
+}
+
+#menu:hover {
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "X";
+}
+
+#mode {
+  color: white;
+  position: absolute;
+  right: 20%;
+  top: 105px;
+  font-size: xx-large;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+#mode:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #333;
+  color: #fff;
+  transition: ease 0.2s;
+}
+.navigation li {
+  display: none;
+  transition: ease 0.2s;
+}
+
+.navigation li a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: ease 0.2s;
+}
+.navigation li a:hover {
+  font-weight: 700;
+  transition: ease 0.2s;
+}
+
+.open li {
+  display: block;
+  width: 100%;
+  transition: ease 0.2s;
+}
+.open li a {
+  display: block;
+  transition: ease 0.2s;
+}
+
+.active {
+  color: yellow;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main ul {
+  padding: 3px;
+}
+
+main h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+  display: block;
+  border: 1px solid;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-one ul {
+  text-align: left;
+  padding-left: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.card-one ul li {
+  display: inline-block;
+}
+
+.card-two ul li {
+  list-style: none;
+}
+
+.lastModified {
+  color: #88d498;
+}
+
+main h3 {
+  text-align: center;
+  background-color: #114b5f;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.hometown {
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  /* margin-top: 0 auto; */
+  padding: 10px;
+  background-color: #114b5f;
+  color: white;
+}
+
+/* animations */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/*  */
+
+
+/* form */
+
