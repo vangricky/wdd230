@@ -1,3 +1,10 @@
+/* root */
+:root {
+  --main-btn-color: #88d498;
+  --main-display: block;
+  --main-padding: 1rem;
+}
+
 /*  base.css: header // main // footnotes */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
@@ -264,6 +271,40 @@ footer {
 
 /*  */
 
-
 /* form */
 
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 10px 10px;
+  text-align: left;
+}
+
+legend {
+  margin: 20px;
+}
+
+label {
+  display: var(--main-display);
+  text-align: left;
+  padding: 10px 20px;
+}
+
+input {
+  display: var(--main-display);
+  height: 25px;
+  width: 300px;
+  padding: var(--main-padding);
+}
+
+input#submitBtn {
+  border: none;
+  background: var(--main-btn-color);
+  border-radius: 8px;
+  text-align: center;
+  line-height: 0px;
+  margin-top: 5px;
+  width: 100%;
+}

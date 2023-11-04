@@ -25,12 +25,81 @@
       </ul>
     </nav>
 
-    <main></main>
+    <main>
+      <h1>Contact Us</h1>
+      <form action="record.html" method="get">
+        <fieldset>
+          <legend>Create an account to contact us!</legend>
+          <label
+            >Username<input
+              type="text"
+              name="username"
+              placeholder="Username"
+              id="username"
+              required
+          /></label>
+          <label
+            >Password<input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              pattern="^[a-zA-Z0-9]{8,}$"
+              title="Password must be at least eight alphanumeric characters long."
+              required
+          /></label>
+          <label
+            >Re-Enter Password<input
+              type="password"
+              name="password2"
+              id="password2"
+              placeholder="Re-Enter Password"
+              required
+          /></label>
+          <label
+            >Email<input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email@gmail.com"
+              pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+              title="Please enter a valid email address, ending in '@byui.edu'"
+          /></label>
+          <label
+            >Rate Us<input
+              type="range"
+              id="range"
+              name="range"
+              min="1"
+              max="10"
+              value="5"
+              step="1"
+              list="rangevalues"
+          /></label>
+          <datalist id="rangevalues">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </datalist>
+        </fieldset>
+        <input type="submit" value="Contact Ricky Vang" id="submitBtn" />
+        <div id="notSame"></div>
+      </form>
+    </main>
 
     <footer>
       <p>&copy; <span id="year"></span> | Ricky Vang | Rexburg, Idaho</p>
       <p class="lastModified"></p>
     </footer>
+    <script src="scripts/form.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/script.js"></script>
   </body>
