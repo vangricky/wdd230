@@ -310,7 +310,7 @@ input#submitBtn {
   transition: 0.2s ease;
 }
 
-input#submitBtn {
+input#submitBtn:hover {
   background: #71ae7e;
   cursor: pointer;
 }
