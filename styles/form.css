@@ -307,6 +307,12 @@ input#submitBtn {
   line-height: 0px;
   margin-top: 5px;
   width: 100%;
+  transition: 0.2s ease;
+}
+
+input#submitBtn {
+  background: #71ae7e;
+  cursor: pointer;
 }
 
 #rangevalue {
