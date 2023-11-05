@@ -349,7 +349,6 @@ select {
   text-align: center;
 }
 
-.membership-info,
-p {
+.membership-info p {
   color: black;
 }
