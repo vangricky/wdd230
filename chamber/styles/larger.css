@@ -107,4 +107,68 @@
     grid-column: 1/2;
     grid-row: 4/5;
   }
+
+  /* join.html */
+  h1 {
+    padding: 10px;
+    text-align: left;
+  }
+  form {
+    margin: 10px 10px;
+    text-align: left;
+  }
+
+  legend {
+    margin: 20px;
+  }
+
+  label {
+    display: block;
+    text-align: left;
+    padding: 10px 20px;
+  }
+
+  input {
+    display: block;
+  }
+
+  input#submitBtn {
+    width: 25%;
+  }
+
+  #membership {
+    display: block;
+  }
+
+  .join-container {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+  }
+
+  .information-box {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .membership-info {
+    grid-column: 2/3;
+    grid-row: 1;
+    border: 1px solid rgb(74, 79, 74);
+    border-radius: 9px;
+    background-color: antiquewhite;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .membership-h1 {
+    text-align: center;
+    color: red;
+  }
+
+  .submitJoin {
+    height: 100px;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 20px;
+  }
 }

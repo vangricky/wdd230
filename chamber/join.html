@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sacramento Chamber of Commerce" />
+    <meta
+      property="og:title"
+      content="Sacramento Chamber of Commerce Official Website"
+    />
+    <meta property="og:type" content="Sacramento Chamber of Commerce" />
+    <meta
+      property="og:url"
+      content="https://vangricky.github.io/wdd230/chamber/"
+    />
+    <meta property="og:image" content="images/ricky-minimal.JPG" />
+    <meta name="author" content="Ricky Vang" />
+    <title>Sacramento Chamber Website</title>
+    <link rel="icon" type="image/x-icon" href="images/capital.png" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+  </head>
+  <body>
+    <div class="image-container">
+      <div class="overlay-text">
+        <header>
+          <nav>
+            <img
+              src="images/sac-icon.png"
+              class="sac-icon fade-in-from-left"
+              alt="sacramento chamber of commerce icon"
+            />
+            <button id="menu"></button>
+            <ul class="navigation fade-in-from-left">
+              <li><a href="#">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="#">Join</a></li>
+            </ul>
+            <div class="heading-contents">
+              <h1 class="main-heading fade-in-from-left">
+                Join The Sacramento Chamber of Commerce
+              </h1>
+            </div>
+            <!-- <div class="button-position">
+              <button class="actionButton fade-in-from-left">Join!</button>
+            </div> -->
+          </nav>
+        </header>
+      </div>
+    </div>
+    <main>
+      <h1>Join Sacramento Chamber of Commerce!</h1>
+      <form action="thankyou.html" method="get">
+        <fieldset>
+          <legend>Information</legend>
+          <div class="join-container">
+            <div class="information-box">
+              <label
+                >First Name<input
+                  type="text"
+                  name="fname"
+                  placeholder="John"
+                  id="fname"
+                  required
+              /></label>
+              <label
+                >Last Name<input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  placeholder="Doe"
+                  required
+              /></label>
+              <label
+                >Title/Position<input
+                  type="text"
+                  name="title"
+                  id="title"
+                  placeholder=" Sr. Web Developer"
+                  pattern="[a-zA-Z\- ]{7,}"
+                  title="Only alpha characters, hyphens, and spaces with a minimum of seven characters are allowed."
+                  required
+              /></label>
+              <label
+                >Email<input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="email@gmail.com"
+                  required
+              /></label>
+              <label
+                >Phone<input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="123123555"
+                  required
+              /></label>
+              <label
+                >Business/Organizations Name<input
+                  type="text"
+                  name="business"
+                  id="business"
+                  placeholder="(ex. Amazon, Meta, Google)"
+                  required
+              /></label>
+              <label
+                >Select Membership<select name="membership" id="membership">
+                  <option value="NP">NP Membership (No Fee)</option>
+                  <option value="Bronze">Bronze Membership</option>
+                  <option value="Silver">Silver Membership</option>
+                  <option value="Gold">Gold Membership</option>
+                </select></label
+              >
+              <input
+                type="submit"
+                value="Join Today!"
+                id="submitBtn"
+                class="submitJoin"
+              />
+            </div>
+
+            <div class="membership-info">
+              <div class="np-membership">
+                <h1 class="membership-h1">Membership Ranks</h1>
+                <h2>NP Membership (No Fee)</h2>
+                <p>-Access to all city events</p>
+                <p>-Updates on new projects throughout the city</p>
+                <p>-Weekly Newspaper</p>
+              </div>
+              <div class="bronze-membership">
+                <h2>Bronze Membership</h2>
+                <p>-Receives previous benefits</p>
+                <p>-Daily Newspaper</p>
+                <p>-Free Food on the first Monday of the month</p>
+              </div>
+              <div class="silver-membership">
+                <h2>Silver Membership</h2>
+                <p>Receives previous benefits</p>
+                <p>Personalized California ID</p>
+                <p>Free Downtown Parking</p>
+              </div>
+              <div class="gold-membership">
+                <h2>Gold Membership</h2>
+                <p>Receives previous benefits</p>
+                <p>Special Access to secret bunker in case of war</p>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div id="notSame"></div>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span></p>
+      <p>Ricky Vang</p>
+      <p>Rexburg, Idaho</p>
+      <p class="lastModified"></p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>

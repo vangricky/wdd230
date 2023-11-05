@@ -276,3 +276,80 @@ footer p {
 .pictures img {
   width: 100%;
 }
+
+/* join.html */
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 10px 10px;
+  text-align: left;
+}
+
+legend {
+  margin: 20px;
+}
+
+label {
+  display: var(--main-display);
+  text-align: left;
+  padding: 10px 20px;
+}
+
+input {
+  display: var(--main-display);
+  height: 25px;
+  width: 300px;
+  padding: var(--main-padding);
+}
+
+input#submitBtn {
+  border: none;
+  background: var(--main-btn-color);
+  border-radius: 8px;
+  text-align: center;
+  line-height: 0px;
+  margin-top: 5px;
+  width: 100%;
+  transition: 0.2s ease;
+  background-color: #3fc653;
+}
+
+input#submitBtn:hover {
+  background: #71ae7e;
+  cursor: pointer;
+}
+
+#rangevalue {
+  font-size: 2rem;
+  color: navy;
+}
+
+#rangevalues {
+  display: flex;
+  margin: 0 0 0 25px;
+  width: 200px;
+}
+
+#rangevalues option {
+  flex: 1 1 auto;
+  padding-left: 16px;
+  margin: 1px;
+}
+
+select {
+  display: var(--main-display);
+  height: 25px;
+  width: 300px;
+  padding: var(--main-padding);
+}
+
+.membership-info h2 {
+  text-align: center;
+}
+
+.membership-info,
+p {
+  color: black;
+}
