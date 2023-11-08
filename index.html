@@ -25,7 +25,7 @@
   </head>
   <body>
     <header>
-      <img src="images/ricky-minimal.JPG" class="header-image" alt="header">
+      <img src="images/ricky-minimal.JPG" class="header-image" alt="header" loading="lazy">
       <h1 class="header-title">Ricky Vang</h1>
     </header>
     <nav>
@@ -42,13 +42,16 @@
     <div class="hero-image">
       <picture>
         <source
-          media="(max-width: 500px)"
+          media="(max-width: 400px)"
           srcset="images/hero-small.webp"
-          class="hero-small">
+          class="hero-small"
+          loading="lazy">
         <source
           media="(max-width: 1000px)"
           srcset="images/hero-medium.webp"
-          class="hero-medium">
+          class="hero-medium"
+          loading="lazy">
+          
         <img
           src="images/hero-large.webp"
           alt="San Diego Temple"
