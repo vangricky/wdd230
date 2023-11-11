@@ -40,10 +40,13 @@
     text-decoration: none;
     color: #36454f;
     text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+    transition: ease 0.2s;
   }
 
   main a:hover {
     font-weight: bold;
+    font-size: 17px;
+    color: black;
   }
 
   .card {
