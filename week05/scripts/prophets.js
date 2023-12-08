@@ -13,6 +13,7 @@ const displayProphets = (prophets) => {
         let card = document.createElement("section");
         let fullName = document.createElement("h2");
         let portrait = document.createElement("img");
+        let birth = doucment.createElement("p")
 
         fullName.textContent = `${prophet.name} ${prophet.lastname}`
 
