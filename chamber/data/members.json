@@ -1,0 +1,131 @@
+{
+    "members": [
+      {
+        "name": "Alice Johnson",
+        "address": {
+          "street": "321 Maple Lane",
+          "city": "Metroville",
+          "state": "Citystate",
+          "zip": "54321"
+        },
+        "phone": "555-1111",
+        "website": "http://www.alicejohnson.com",
+        "image": "alice_johnson.jpg",
+        "membership_level": "gold",
+        "other_information": {
+          "email": "alice.johnson@example.com",
+          "birthday": "1988-03-25",
+          "interests": ["Travel", "Technology", "Fashion"]
+        }
+      },
+      {
+        "name": "David Smith",
+        "address": {
+          "street": "987 Birch Street",
+          "city": "Suburbia",
+          "state": "Residenceland",
+          "zip": "98765"
+        },
+        "phone": "555-2222",
+        "website": "http://www.davidsmith.com",
+        "image": "david_smith.jpg",
+        "membership_level": "silver",
+        "other_information": {
+          "email": "david.smith@example.com",
+          "birthday": "1990-11-12",
+          "interests": ["Music", "Reading", "Fitness"]
+        }
+      },
+      {
+        "name": "Emily White",
+        "address": {
+          "street": "654 Oak Street",
+          "city": "Suburbville",
+          "state": "Homeland",
+          "zip": "45678"
+        },
+        "phone": "555-3333",
+        "website": "http://www.emilywhite.com",
+        "image": "emily_white.jpg",
+        "membership_level": "bronze",
+        "other_information": {
+          "email": "emily.white@example.com",
+          "birthday": "1985-07-18",
+          "interests": ["Art", "Photography", "Cooking"]
+        }
+      },
+      {
+        "name": "Michael Brown",
+        "address": {
+          "street": "876 Cedar Avenue",
+          "city": "Townburg",
+          "state": "Countystate",
+          "zip": "23456"
+        },
+        "phone": "555-4444",
+        "website": "http://www.michaelbrown.com",
+        "image": "michael_brown.jpg",
+        "membership_level": "gold",
+        "other_information": {
+          "email": "michael.brown@example.com",
+          "birthday": "1977-09-08",
+          "interests": ["Sports", "Travel", "Technology"]
+        }
+      },
+      {
+        "name": "Sophia Miller",
+        "address": {
+          "street": "543 Pine Lane",
+          "city": "Villageville",
+          "state": "Provinceland",
+          "zip": "34567"
+        },
+        "phone": "555-5555",
+        "website": "http://www.sophiamiller.com",
+        "image": "sophia_miller.jpg",
+        "membership_level": "silver",
+        "other_information": {
+          "email": "sophia.miller@example.com",
+          "birthday": "1982-04-30",
+          "interests": ["Fashion", "Reading", "Fitness"]
+        }
+      },
+      {
+        "name": "Christopher Lee",
+        "address": {
+          "street": "234 Elm Street",
+          "city": "Cityburg",
+          "state": "Urbanland",
+          "zip": "12345"
+        },
+        "phone": "555-6666",
+        "website": "http://www.christopherlee.com",
+        "image": "christopher_lee.jpg",
+        "membership_level": "bronze",
+        "other_information": {
+          "email": "christopher.lee@example.com",
+          "birthday": "1995-02-15",
+          "interests": ["Music", "Sports", "Cooking"]
+        }
+      },
+      {
+        "name": "Olivia Davis",
+        "address": {
+          "street": "765 Oak Avenue",
+          "city": "Metropolis",
+          "state": "Cityland",
+          "zip": "87654"
+        },
+        "phone": "555-7777",
+        "website": "http://www.oliviadavis.com",
+        "image": "olivia_davis.jpg",
+        "membership_level": "gold",
+        "other_information": {
+          "email": "olivia.davis@example.com",
+          "birthday": "1989-06-20",
+          "interests": ["Art", "Travel", "Photography"]
+        }
+      }
+    ]
+  }
+  
