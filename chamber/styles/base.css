@@ -64,6 +64,13 @@ button {
   /* background-size: 100%; */
 }
 
+.image-container-directory {
+  background: linear-gradient(rgba(27, 23, 23, 0.7), rgba(27, 23, 23, 0.7)),
+    url(../images/discover-head.jpeg);
+  height: 650px;
+  width: 100%;
+}
+
 .sac-icon {
   position: relative;
   display: block;
