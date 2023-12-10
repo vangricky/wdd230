@@ -214,25 +214,26 @@ p {
 .events {
   width: 100%;
   height: 250px;
-  background-color: #d1caa1;
+  /* background-color: #d1caa1; */
 }
 
 .events h2 {
   color: white;
   text-align: center;
+  color: #233142;
 }
 
 .weather-card {
-  color: white;
+  color: #233142;
   text-align: center;
-  background-color: #383b53;
+  /* background-color: #383b53; */
   width: 100%;
   height: 250px;
 }
 
 .advertisements {
-  color: white;
-  background-color: #d1caa1;
+  color: #233142;
+  /* background-color: #d1caa1; */
   width: 100%;
   height: 250px;
   text-align: center;
