@@ -172,9 +172,9 @@ a {
   font-size: 30px;
 }
 
-main {
+/* main {
   background-color: #d1caa1;
-}
+} */
 
 p {
   color: white;
@@ -268,7 +268,7 @@ footer p {
 }
 
 .discover-h1 {
-  color: #d1caa1;
+  color: black;
   text-align: center;
   /* text-shadow: 0px 0px 5px black; */
 }
@@ -358,9 +358,15 @@ select {
 }
 
 .membership-info h2 {
-  text-align: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 10px;
+  text-align: left;
 }
 
 .membership-info p {
   color: black;
+  text-align: left;
+  padding-left: 18px;
+  padding-right: 18px;
 }
