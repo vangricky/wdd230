@@ -172,6 +172,13 @@ a {
   text-align: center;
   text-shadow: 0px 0px 5px black;
   font-size: 30px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.index-head-caption {
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 /* main {
