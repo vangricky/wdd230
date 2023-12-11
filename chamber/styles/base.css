@@ -532,9 +532,9 @@ section {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.spotlight-header {
-  /* padding-top: 65px; */
-}
+/* .spotlight-header {
+  padding-top: 65px;
+} */
 
 .spotlight-p {
   grid-row: 2/3;
