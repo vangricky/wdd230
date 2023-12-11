@@ -102,7 +102,7 @@
   .container {
     display: grid;
     grid-template-columns: 1fr 100px 1fr;
-    grid-template-rows: 500px 500px 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
   }
 
   .first-header {
@@ -135,12 +135,16 @@
 
   .discover-h1 {
     text-align: left;
-    color: #d1caa1;
+    /* color: #d1caa1; */
   }
 
   .discover-p {
     text-align: left;
     margin-top: 25px;
+  }
+
+  .attractions-header {
+    text-align: center;
   }
 
   .pictures {
@@ -150,6 +154,7 @@
   .picture-pictures {
     grid-column-start: 3/4;
     grid-row: 1/4;
+    width: 66%;
     /* border: 2px solid black; */
     /* border-radius: 25px; */
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
