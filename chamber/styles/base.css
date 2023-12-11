@@ -29,6 +29,10 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
 p {
   font-family: "Raleway", sans-serif;
 }
@@ -194,6 +198,10 @@ p {
 
 .button-position {
   text-align: center;
+}
+
+.main-join-btn {
+  color: black;
 }
 
 .actionButton {
@@ -475,4 +483,83 @@ section {
 
 .list section:nth-child(even) {
   background-color: #fffefc;
+}
+
+/* index.html */
+
+.index-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-gap: 35px;
+  margin: 30px;
+}
+
+.main-banner {
+  padding: 20px;
+  border-radius: 19px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.index-banner {
+  grid-row: 3/4;
+}
+
+.banner-header {
+  margin-bottom: 15px;
+}
+
+.banner-p {
+  grid-row: 2/3;
+  text-align: left;
+  color: black;
+}
+
+.banner-p2 {
+  grid-row: 2/3;
+  text-align: left;
+  color: black;
+  font-size: small;
+}
+
+.gatheria {
+  font-weight: bold;
+}
+
+.spotlight {
+  padding: 20px;
+  border-radius: 19px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.spotlight-header {
+  /* padding-top: 65px; */
+}
+
+.spotlight-p {
+  grid-row: 2/3;
+  /* margin-top: 10px; */
+  color: rgb(8, 8, 0);
+  text-align: left;
+  /* font-weight: bold; */
+}
+
+.gold {
+  grid-row: 2/3;
+  color: rgb(105, 98, 17);
+  text-align: left;
+  margin-top: 25px;
+  font-weight: bolder;
+}
+
+.weather {
+  padding: 20px;
+  border-radius: 19px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.weather-text {
+  color: black;
+  text-align: left;
+  margin-top: 25px;
 }

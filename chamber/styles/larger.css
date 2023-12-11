@@ -318,4 +318,21 @@
   .list section:nth-child(even) {
     background-color: #fffefc;
   }
+
+  .index-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .spotlight {
+    grid-column: 2/3;
+  }
+
+  .spotlight-header {
+    padding-top: 0px;
+  }
+
+  .weather-header {
+    padding-top: 0px;
+  }
 }
