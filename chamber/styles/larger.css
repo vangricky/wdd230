@@ -211,7 +211,7 @@
 
   .join-container {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
 
@@ -223,10 +223,10 @@
   .membership-info {
     grid-column: 2/3;
     grid-row: 1;
-    border: 1px solid rgb(74, 79, 74);
+    border-radius: 19px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 9px;
-    background-color: #f2f2f2;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* background-color: #f2f2f2; */
   }
 
   .membership-h1 {
@@ -235,10 +235,7 @@
   }
 
   .submitJoin {
-    height: 100px;
-    font-size: 20px;
-    text-align: left;
-    padding: 10px 20px;
+    margin: 10px;
   }
 
   /* directory */

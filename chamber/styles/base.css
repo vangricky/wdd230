@@ -353,7 +353,7 @@ input {
 }
 
 input#submitBtn {
-  border: none;
+  border: 1px thin;
   background: var(--main-btn-color);
   border-radius: 8px;
   text-align: center;
@@ -361,11 +361,11 @@ input#submitBtn {
   margin-top: 5px;
   width: 100%;
   transition: 0.2s ease;
-  background-color: #3fc653;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 input#submitBtn:hover {
-  background: #71ae7e;
+  background: #3fc653;
   cursor: pointer;
 }
 
@@ -391,6 +391,12 @@ select {
   height: 25px;
   width: 300px;
   padding: var(--main-padding);
+}
+
+.membership-info {
+  border-radius: 19px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-top: 10px;
 }
 
 .membership-info h2 {
